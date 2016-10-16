@@ -62,11 +62,13 @@ footer {
   position:relative;
 }
 
-.nav a:hover{
+/** HIGHLIGHT CURRENT LINK **/
+
+.nav a:hover {
   background-color: #b20953;
 }
 
-.nav .current{
+.nav .current {
   background-color: #b20953;
 }
 
@@ -74,7 +76,7 @@ footer {
 
 img {
   width: 100%;
-  margin: 0 0 0.2em;
+  display: block;
 }
 
 .para {
