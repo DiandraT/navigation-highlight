@@ -18,6 +18,8 @@ h1 {
   margin: 0 0 0.2em;
 }
 
+/** NAVIGATION **/
+
 .nav {
   list-style-type: none;
   text-align: center;
@@ -41,12 +43,16 @@ li {
   padding: 0 0 0.4em;
 }
 
+/** MIDDLE OF THE PAGE LAYOUT **/
+
 h2 {
   font-family: "Sigmar One", cursive;
   color: #b20953;
   font-size: 1.875rem;
   text-align: left;
   padding: 0.2em 0.5em 0.3em;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
 }
 
 section {
@@ -55,7 +61,6 @@ section {
 }
 
 footer {
-  font-size: 0.75rem;
   background-color: #ffe500;
   text-align: center;
   padding: 10px;
@@ -81,4 +86,5 @@ img {
 
 .para {
   font-family: Georgia;
+  color: #2f2d13;
 }
